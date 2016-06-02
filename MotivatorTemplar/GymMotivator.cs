@@ -32,10 +32,10 @@ namespace MotivatorTemplar
             config = ConfigurationManager.OpenMappedExeConfiguration(configFileMap, ConfigurationUserLevel.None);
         }
 
+        //Figure this shit out
+    
         public void setDeadlift(int lifted)
         {
-            config.AppSettings.Settings["Deadlift"].Value = lifted.ToString();
-            config.Save();
         }
 
         public void setSquat(int lifted)
