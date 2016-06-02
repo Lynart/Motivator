@@ -32,11 +32,25 @@ namespace MotivatorTemplar
         public String Status()
         {
             Int32 percentageComplete = ((Int32)Math.Round(result * 100));
-            String addOnMsg; //For milestones!
-            if(percentageComplete>25 && percentageComplete<50) {
-                addOnMsg = "You've hit your first milestone!";
+            String addOnMsg = ""; //For milestones!
+            String logo = "~~~ OSAP STATUS ~~~\n";
+
+            if(percentageComplete>=25 && percentageComplete<50) {
+                addOnMsg = "1/4th! Hang in there!\n";
             }
-            return "You are " + percentageComplete + "% of the way to completing your OSAP payments!";
+            else if(percentageComplete>=50 && percentageComplete < 75){
+                addOnMsg = "Half or more!! Keep sprinting!\n";
+            }
+            else if (percentageComplete >= 75 && percentageComplete < 100)
+            {
+                addOnMsg = "3/4th dude!!! Pierce the fucking heavens!\n";
+            }
+            else if (percentageComplete >= 100)
+            {
+                addOnMsg = "MOTHER FUCKING DONE!!!!";
+            }
+
+            return logo + addOnMsg + "You are " + percentageComplete + "% of the way to completing your OSAP payments!";
         }
     }
 }
