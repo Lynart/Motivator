@@ -27,6 +27,7 @@ namespace MotivatorTemplar
             today = DateTime.Now;
             daysCompleted = (Int32)Math.Floor((today - beginning).TotalDays);
             result = ((Decimal)daysCompleted / (Decimal)totalDays);
+
         }
 
         public String Status()

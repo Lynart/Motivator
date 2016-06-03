@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MotivatorTemplar.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Deadlift" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">285</Value>
+    </Setting>
+    <Setting Name="Squat" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">195</Value>
+    </Setting>
+    <Setting Name="Bench" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">140</Value>
+    </Setting>
+    <Setting Name="Shoulder" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">70</Value>
+    </Setting>
+    <Setting Name="Clean" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">115</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
